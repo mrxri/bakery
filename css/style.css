@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+  --f7-theme-color:#032539;
+  --f7-second-theme-color:#1C768F;
+  --f7-text-color:#F0F4FF;
+  --f7-acento-color:#FA991C;
+  --f7-navbar-bg-color: #F0F4FF; /*navbar*/
+  --f7-navbar-text-color:#F79D5A;
+  --f7-bars-bg-color:#fff;/*toolbar*/
+  --f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+  --f7-block-margin-vertical:20px;
+  --f7-card-footer-border-color:transparent;  
+}
+
+body{
+	background-color: var(--f7-theme-color);
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: var(--f7-text-color);
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 10px 0;
+}
+/*side panel*/
+.info-user{
+	padding: 60px 20px 10px;
+	color: var(--f7-theme-color);
+	font-size: 12px;
+}
+.info-user img{
+	border-radius: 100%;
+	max-width: 50%;
+}
+.list-panel{
+	font-size: 13px;
+	color: var(--f7-theme-color);
+}
+.list-panel .item-title{
+	font-weight: 400;
+	color: var(--f7-theme-color);
+}
+.list-panel i{
+	color: var(--f7-theme-color);
+	font-size: 14px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+/*sweetness*/
+
+.sweetness{
+	padding:15px 20px;
+}
+.block-title-medium{
+	font-weight: 500;
+}
+h6{	
+	padding: 2px 5px 5px;
+	color: var(--f7-theme-color);
+	font-size: 14px;
+	font-weight: 200px;
+}
+
+
+
+/*main screen*/
+.home-bakery{
+	padding:15px 20px;
+	background-color: var(--f7-theme-color);
+}
+.home-bakery h1{
+	font-size: 20px;
+	font-weight: 200px;
+	color: var(--f7-acento-color);
+}
+.img-fluid-two{
+	max-width: 100%;
+	border-radius: 100px;
+}
+
+
+
+/*chocolate cards*/
+#chocolate{
+	padding:15px 20px;
+}
+#chocolate p{
+	padding: 2px 5px 5px;	
+	color: var(--f7-theme-color);
+	font-size: 12px;
+}
+#chocolate .card{
+	padding: 10px;
+}
+
+
+
+/*cookie*/
+.button-fill{
+	background-color: var(--f7-acento-color);
+	color: var(--f7-theme-color);
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: none;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+
+/*profile*/
+#profile img{
+	border-radius: 100%;
+	max-width: 50%;
+	margin: 10px 90px;
+}
+#profile h3,h4,p{
+	text-align: center;
+	color: var(--f7-theme-color);
+}
+
+
